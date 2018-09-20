@@ -1,0 +1,8 @@
+.idea
+.DS_Store
+vendor
+bats
+bin
+libexec
+share
+test.json
