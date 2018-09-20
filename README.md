@@ -1,6 +1,6 @@
 ## Watch the video
 
-https://youtu.be/YMUEQuFX4Po/
+Watch [the video](https://youtu.be/YMUEQuFX4Po/, "Cantilever Video") to learn more about the why and how of Cantilever.
 
 ## Cantilever is designed to
 
@@ -23,3 +23,5 @@ https://youtu.be/YMUEQuFX4Po/
 ## TODO
 
 * Add support for organization/membership tags
+
+This plugin is provided by [Inclind](https://www.inclind.com "Inclind's Homepage")
