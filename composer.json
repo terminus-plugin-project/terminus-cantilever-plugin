@@ -1,5 +1,5 @@
 {
-    "name": "inclind/cantilever",
+    "name": "terminus-plugin-project/terminus-cantilever-plugin",
     "author": "Phil Everton",
     "description": "touch any/all terminus environments",
     "type": "terminus-plugin",
