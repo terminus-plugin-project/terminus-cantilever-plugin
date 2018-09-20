@@ -1,6 +1,6 @@
 ## Watch the video
 
-Watch [the video](https://youtu.be/YMUEQuFX4Po/, "Cantilever Video") to learn more about the why and how of Cantilever.
+Watch [the video](https://youtu.be/YMUEQuFX4Po/ "Cantilever Video") to learn more about the why and how of Cantilever.
 
 ## Cantilever is designed to
 
