@@ -6,8 +6,6 @@
 * run drush and/or wp-cli commands, or really any commands at all
 * provide organized report of operations on per site basis
 
-<img src="https://www.inclind.com/img/cantilever.jpg" width="400" height="300" />
-
 ## Watch the video
 
 Watch [the video](https://youtu.be/YMUEQuFX4Po/ "Cantilever Video") to learn more about the why and how of Cantilever.
@@ -19,7 +17,7 @@ It will take arguments for environment `--env=`, framework `--frame=`, tags `--t
 
 You can also specify a command `--command=` to apply to all of the sites targeted.
 
-Ex. `terminus can --frame=wordpress --env=dev --command='terminus [site] wp plugin update --all && terminus [site] wp theme update themename`.
+Ex. `terminus can --frame='wordpress' --env='dev' --command='terminus [site] wp plugin update --all && terminus [site] wp theme update themename'`.
 
 In the command, you have tokens available to use as placeholders for each sites data.
 * `[site]` will produce site.env; Ex. `yoursite.live`
