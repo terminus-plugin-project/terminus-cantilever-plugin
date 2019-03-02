@@ -9,7 +9,7 @@
     },
     "extra": {
         "terminus": {
-            "compatible-version": "^1.1"
+            "compatible-version": "^2"
         }
     },
     "require-dev": {
