@@ -1,8 +1,8 @@
 # Terminus Cantilever Plugin
-[![Terminus v1.x Compatible](https://img.shields.io/badge/terminus-v1.x-green.svg)](https://github.com/terminus-plugin-project/terminus-cantilever-plugin/tree/1.x)
+[![Terminus v2.x Compatible](https://img.shields.io/badge/terminus-v2.x-green.svg)](https://github.com/terminus-plugin-project/terminus-cantilever-plugin/tree/2.x)
 
 * isolate environments by framework (drupal, drupal8, wordpress)
-* isolate environments by service level (free, basic, pro, business, performance)
+* isolate environments by plan (sandbox, basic, performance small, performance medium, elite)
 * run drush and/or wp-cli commands, or really any commands at all
 * provide organized report of operations on per site basis
 
@@ -31,12 +31,12 @@ To install this plugin place it in `~/.terminus/plugins/`.
 On Mac OS/Linux:
 ```
 mkdir -p ~/.terminus/plugins
-composer create-project -d ~/.terminus/plugins terminus-plugin-project/terminus-cantilever-plugin:~1
+composer create-project -d ~/.terminus/plugins terminus-plugin-project/terminus-cantilever-plugin:~2
 ```
 
 ## Examples
 
-```terminus can --env=live --level='pro,business,performance' --frame='drupal,drupal8' --command='terminus drush [site] pml|grep redis'```
+```terminus can --env=live --plan='basic,performance small,performance medium' --frame='drupal,drupal8' --command='terminus drush [site] pml|grep redis'```
 
 ```terminus can --env=live --frame='wordpress' --command='terminus wp [site] option get home'```
 
@@ -46,5 +46,6 @@ Run `terminus can --help` for help.
 ## TODO
 
 * Add support for organization/membership tags
+* Allow interactive input for filters
 
 This plugin is provided by [Inclind](https://www.inclind.com "Inclind's Homepage")
